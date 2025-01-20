@@ -2,13 +2,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_shortcut_beer"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_shortcut_beer"
         android:supportsRtl="true"
         android:theme="@style/Theme.Djir"
         tools:targetApi="31">
@@ -35,7 +38,8 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDIgNKFdA9sYOau2Mre0nxYZ2oU3Jc9SHE" />
+            android:value="AIzaSyDIgNKFdA9sYOau2Mre0nxYZ2oU3Jc9SHE"
+            />
     </application>
 
 </manifest>
