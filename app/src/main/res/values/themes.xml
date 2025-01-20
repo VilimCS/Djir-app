@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Djir" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.Djir" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Set the background color -->
+        <item name="android:background">@color/color_background</item>
+
+        <!-- Set primary color to yellow -->
+        <item name="colorPrimary">@color/color_primary</item>
+
+        <!-- Set text color on primary -->
+        <item name="android:textColorPrimary">@color/color_on_background</item>
+
+        <!-- Set text color on background -->
+        <item name="android:textColor">@color/color_on_background</item>
+    </style>
 </resources>

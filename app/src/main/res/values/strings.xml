@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Djir</string>
+    <string name="app_name">ĐIR</string>
+    <string name="welcome_message">Aplikacija ĐIR pruža vodič za jedinstveno istraživanje Zagreba kroz rute posvećene ljubiteljima piva. Putem aplikacije korisnici mogu otkriti najbolje lokalne pivnice i kafiće, uz detaljne informacije o svakom mjestu, uključujući njihove specijalitete, radno vrijeme i udaljenost. Crvene oznake na karti označavaju kulturne znamenitosti, a žute oznake pivnice i kafiće. Svaka ruta nudi pažljivo odabrane lokacije koje predstavljaju autentičnu kulturu i okuse Zagreba.</string>
+    <string name="continue_button">Idem u ĐIR</string>
 </resources>
